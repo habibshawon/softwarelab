@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main ()
+{
+    int a[5],div=1,i,n;
+     printf("Enter The 5 numbers : ");
+     for(i=0; i<5; i++)
+     {
+         scanf("%d",&a[i]);
+
+     }
+     for(i=0; i<5; i++)
+     {
+         div = div % a[i];
+     }
+
+      printf("The division is :%d\n",div);
+       printf("The average value is :%.2f\n",(float)div/5);
