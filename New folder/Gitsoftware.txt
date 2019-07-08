@@ -13,5 +13,4 @@ int main ()
          div = div % a[i];
      }
 
-      printf("The division is :%d\n",div);
-       printf("The average value is :%.2f\n",(float)div/5);
+     
